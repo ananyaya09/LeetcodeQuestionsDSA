@@ -1,26 +1,29 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-        int ans = INT_MAX;
-        int n = nums.size();
-        int h = n - 1;
-        int l = 0;
 
-        while (l <= h) {
-            int mid = (l + h) / 2;
+        int  n= nums.size();
 
-            if (nums[l] <= nums[mid]) // means left is sorted
-            {
-                ans = min(
-                    ans, nums[l]); // store smallest from the sorted part i.e.,l
-                l = mid + 1;       // move right
+        int high =n-1;
+        int low = 0;
+        int answer= INT_MAX;
 
-            } else { // right part is sorted
-                ans = min(
-                    ans, nums[mid]); // store smallest from right part i.e., mid
-                h = mid - 1;         // move left
+        while(low<=high){
+
+            int mid= (low + high)/2;
+//either side of mid would be definately sorted
+// sorted wali side ka answer store karke unsorted wali side mave karo
+            if(nums[mid] >= nums[low]){  //---->left part is sorted
+                answer = min(answer, nums[low]);
+                low = mid+1;
             }
+            else                         //----> right part is sorted
+             {   
+                answer= min( answer, nums[mid]);
+                high= mid-1;
+             }
         }
-        return ans;
+        return answer;
+        
     }
 };
