@@ -15,7 +15,7 @@ public:
         //find length of LL
         ListNode* temp=head;
         int cnt=0;
-        while(temp!=NULL){
+        while(temp){
             cnt++;
             temp=temp->next;
         }
@@ -29,3 +29,4 @@ public:
         return temp;
     }
 };
+// METHOD 1 it is!!
