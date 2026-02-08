@@ -8,16 +8,30 @@
  */
 class Solution {
 public:
-    bool hasCycle(ListNode *head) {
-        ListNode* slow=head;
-        ListNode* fast= head;
+    bool hasCycle(ListNode* head) {
 
-        while( fast!= NULL && fast->next!= NULL ){
-            slow= slow-> next;
-            fast= fast-> next -> next;
-            if( fast==slow)
+        set <ListNode*> st;
+        ListNode* temp= head;
+        while(temp!= NULL){
+
+            if(st.find(temp)!=st.end())
                 return true;
+            st.insert(temp);
+            temp= temp->next;
         }
-        return false; //give what to return if while condition becomes false
+        return false;
+
+
+
+        // ListNode* slow = head;
+        // ListNode* fast = head;
+
+        // while (fast != NULL && fast->next != NULL) {
+        //     slow = slow->next;
+        //     fast = fast->next->next;
+        //     if (fast == slow)
+        //         return true;
+        // }
+        // return false; // give what to return if while condition becomes false
     }
 };
