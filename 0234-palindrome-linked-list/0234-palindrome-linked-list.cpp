@@ -32,20 +32,19 @@ public:
         return newHead;
     }
     bool isPalindrome(ListNode* head) {
-
-        if (head == NULL && head->next == NULL)
-            return head;
+        // if (head == NULL || head->next == NULL)
+        //     return true;
 
         ListNode* mid = middleNode(head);
-        ListNode* newHead = reverseList(mid);
+
+        ListNode* newhead = reverseList(mid);
 
         ListNode* p1 = head;
-        ListNode* p2 = newHead;
+        ListNode* p2 = newhead;
 
         while (p1 != NULL && p2 != NULL) {
             if (p1->val != p2->val)
                 return false;
-
             p1 = p1->next;
             p2 = p2->next;
         }
