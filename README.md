@@ -59,4 +59,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0217-contains-duplicate/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0217-contains-duplicate/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0217-contains-duplicate](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0217-contains-duplicate/) | Easy |
 <!---LeetCode Topics End-->
