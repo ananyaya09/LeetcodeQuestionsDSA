@@ -3,8 +3,8 @@ public:
     bool isAnagram(string s, string t) {
         if(s.length()!=t.length()) return false;
 
-        unordered_set <char,int> map_s;
-        unordered_set <char,int> map_t;
+        unordered_map <char,int> map_s;
+        unordered_map <char,int> map_t;
         for(int i=0; i<s.size(); i++){
             map_s[s[i]]++;
             map_t[t[i]]++;
