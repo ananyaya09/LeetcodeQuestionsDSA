@@ -29,7 +29,7 @@ public:
             cnt++;
         }
 
-        // GN nhi hai toh, aage badho
+        // GN nhi hai toh, aage badho YA GN hai bhi toh aur aage ke bhi dekho
         cntGN(root->left, cnt, max_at_this_step);
         cntGN(root->right, cnt, max_at_this_step);
     }
