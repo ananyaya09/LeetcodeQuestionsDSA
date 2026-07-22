@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0053-maximum-subarray](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0217-contains-duplicate](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0217-contains-duplicate/) | Easy |
@@ -96,10 +97,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
