@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0001-two-sum/) | Easy |
+| [0031-next-permutation](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0031-next-permutation/) | Medium |
 | [0049-group-anagrams](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -115,5 +116,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0031-next-permutation](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0031-next-permutation/) | Medium |
 | [0075-sort-colors](https://github.com/ananyagupta092005-tech/leetcode/tree/main/0075-sort-colors/) | Medium |
 <!---LeetCode Topics End-->
